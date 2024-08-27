@@ -1,1 +1,109 @@
-venv
+# Geralmente recomendado para todos os projetos
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log
+*.bak
+*.swp
+
+# Arquivos e diretórios gerados pelo Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+.Python
+
+# Configurações do Django
+db.sqlite3
+/media/
+staticfiles/
+.env
+
+# Ignorar todas as migrações
+*/migrations/__pycache__/
+*/migrations/*.py[cod]
+
+# Ignorar arquivos de migrações Django criados pelo usuário
+*/migrations/*.py
+
+# Arquivos do React
+node_modules/
+npm-debug.log
+yarn-error.log
+.yarn-integrity
+build/
+
+# Configurações do Docker
+docker-compose.override.yml
+.dockerignore
+
+# Diretório de dados do PostgreSQL
+postgres_data/
+
+# Arquivos de cache, lock, e temp do npm/yarn
+package-lock.json
+yarn.lock
+
+# Logs e configurações do sistema operacional
+*.log
+*.out
+*.pid
+*.pid.lock
+
+# Arquivos de configuração pessoal
+*.sublime-project
+*.sublime-workspace
+*.suo
+*.ntvs
+*.njsproj
+*.ps1
+
+# Configurações de IDEs
+/.idea/
+.vscode/
+*.iml
+*.sln
+*.user
+
+# Arquivos de build
+dist/
+bin/
+obj/
+
+# Arquivos de configuração do MacOS
+.DS_Store
+
+# Arquivos de lock do pipenv
+Pipfile.lock
+
+# Cache do pip
+pip-wheel-metadata/
+__pycache__/
+
+# Ignorar arquivos de cobertura de testes
+.coverage
+.coverage.*
+.hypothesis/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+htmlcov/
+
+# Arquivos de testes e relatórios de pytest
+.pytest_cache/
+
+# Artefatos de testes de Jupyter notebooks
+.ipynb_checkpoints
+
+# Arquivos do sistema operacional Windows
+*.cab
+*.cab.zip
